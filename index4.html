@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qazaq - Premium Branded Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="w.css">
+    <link rel="stylesheet" href="sty.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Header with Navigation -->
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold brand-logo">QAZAQ</div>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#" class="nav-link text-gray-700 hover:text-black">Home</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-black">Men</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-black">Women</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-black">Brands</a>
+                <a href="#" class="nav-link text-gray-700 hover:text-black">Collections</a>
+            </nav>
+            <div class="flex items-center space-x-6">
+                <button class="text-gray-700 hover:text-black">
+                    <i class="fas fa-search text-lg"></i>
+                </button>
+                <button class="text-gray-700 hover:text-black">
+                    <i class="fas fa-user text-lg"></i>
+                </button>
+                <button class="text-gray-700 hover:text-black relative">
+                    <i class="fas fa-shopping-bag text-lg"></i>
+                    <span class="absolute -top-2 -right-2 bg-black text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">3</span>
+                </button>
+                <button class="md:hidden text-gray-700">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section text-white py-20 md:py-32">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="heading-font text-4xl md:text-6xl font-bold mb-6">Elevate Your Style</h1>
+            <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">Discover curated collections from the world's most exclusive brands</p>
+            <button class="bg-black text-white px-8 py-3 text-lg hover:bg-gray-800 transition">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Featured Brands -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="heading-font text-3xl font-bold text-center mb-12">Our Featured Brands</h2>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10">
+                <div class="flex justify-center items-center p-6 border border-gray-200 hover:border-black transition">
+                    <img src="https://logo.clearbit.com/gucci.com" alt="Gucci" class="h-12 object-contain">
+                </div>
+                <div class="flex justify-center items-center p-6 border border-gray-200 hover:border-black transition">
+                    <img src="https://logo.clearbit.com/prada.com" alt="Prada" class="h-12 object-contain">
+                </div>
+                <div class="flex justify-center items-center p-6 border border-gray-200 hover:border-black transition">
+                    <img src="https://logo.clearbit.com/balenciaga.com" alt="Balenciaga" class="h-12 object-contain">
+                </div>
+                <div class="flex justify-center items-center p-6 border border-gray-200 hover:border-black transition">
+                    <img src="https://logo.clearbit.com/versace.com" alt="Versace" class="h-12 object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Arrivals -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center mb-12">
+                <h2 class="heading-font text-3xl font-bold">New Arrivals</h2>
+                <a href="#" class="text-black hover:underline">View All</a>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Designer Jacket" 
+                             class="w-full h-80 object-cover">
+                        <button class="absolute top-4 right-4 bg-white rounded-full p-2 text-gray-700 hover:text-black">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-gray-500 mb-1">BALENCIAGA</div>
+                        <h3 class="font-bold mb-2">Oversized Leather Jacket</h3>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold">$1,850</span>
+                            <button class="text-xs bg-black text-white px-3 py-1 rounded hover:bg-gray-800">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Designer Shoes" 
+                             class="w-full h-80 object-cover">
+                        <button class="absolute top-4 right-4 bg-white rounded-full p-2 text-gray-700 hover:text-black">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-gray-500 mb-1">GUCCI</div>
+                        <h3 class="font-bold mb-2">Ace Embroidered Sneakers</h3>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold">$790</span>
+                            <button class="text-xs bg-black text-white px-3 py-1 rounded hover:bg-gray-800">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1539533018447-63fcdfdcd30c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Designer Bag" 
+                             class="w-full h-80 object-cover">
+                        <button class="absolute top-4 right-4 bg-white rounded-full p-2 text-gray-700 hover:text-black">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-gray-500 mb-1">PRADA</div>
+                        <h3 class="font-bold mb-2">Re-Nylon Shoulder Bag</h3>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold">$1,350</span>
+                            <button class="text-xs bg-black text-white px-3 py-1 rounded hover:bg-gray-800">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card bg-white rounded-lg overflow-hidden shadow-md transition duration-300">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1592878904947-b3ab73b5c3b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                             alt="Designer Watch" 
+                             class="w-full h-80 object-cover">
+                        <button class="absolute top-4 right-4 bg-white rounded-full p-2 text-gray-700 hover:text-black">
+                            <i class="far fa-heart"></i>
+                        </button>
+                    </div>
+                    <div class="p-4">
+                        <div class="text-sm text-gray-500 mb-1">ROLEX</div>
+                        <h3 class="font-bold mb-2">Datejust 41 Watch</h3>
+                        <div class="flex justify-between items-center">
+                            <span class="font-bold">$12,500</span>
+                            <button class="text-xs bg-black text-white px-3 py-1 rounded hover:bg-gray-800">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seasonal Collection -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center mb-12">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <h2 class="heading-font text-3xl font-bold mb-4">Autumn/Winter Collection</h2>
+                    <p class="text-gray-600 mb-6">Discover our curated selection of premium outerwear, knitwear, and accessories for the colder months ahead.</p>
+                    <button class="bg-black text-white px-6 py-3 hover:bg-gray-800 transition">Explore Collection</button>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" 
+                         alt="Autumn Collection" 
+                         class="w-full rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="py-16 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="heading-font text-3xl font-bold mb-4">Join Our Community</h2>
+            <p class="max-w-2xl mx-auto mb-8 text-gray-300">Subscribe to our newsletter for exclusive access to new arrivals, private sales, and style inspiration.</p>
+            <div class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Your email address" class="flex-grow px-4 py-3 rounded-l focus:outline-none text-black">
+                <button class="bg-black px-6 py-3 rounded-r hover:bg-gray-800 transition">Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+                <div>
+                    <div class="text-2xl font-bold brand-logo mb-4">QAZAQ</div>
+                    <p class="text-gray-600 mb-4">Premium fashion destination offering curated selections from the world's most exclusive brands.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-black"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Shop</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black">New Arrivals</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Men</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Women</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Accessories</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Sale</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">Customer Service</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black">Contact Us</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">FAQs</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Shipping & Returns</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Payment Options</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Size Guide</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-bold mb-4">About Qazaq</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-600 hover:text-black">Our Story</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Sustainability</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Careers</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Press</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-black">Store Locator</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-200 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">© 2023 Qazaq. All rights reserved.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-500 text-sm hover:text-black">Privacy Policy</a>
+                    <a href="#" class="text-gray-500 text-sm hover:text-black">Terms of Service</a>
+                    <a href="#" class="text-gray-500 text-sm hover:text-black">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
